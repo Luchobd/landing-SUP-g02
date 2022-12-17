@@ -1,0 +1,44 @@
+.networking__container {
+  padding: 1px 0;
+  background-color: #2b0032;
+}
+
+.networking {
+  margin: 50px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.networking__icon {
+  height: 40px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: #fafafa;
+}
+
+.networking__icon:nth-child(1) {
+  background-color: #6e5494;
+  border: 2px solid #6e5494;
+}
+
+.networking__icon:nth-child(2) {
+  background-color: #1da1f2;
+  border: 2px solid #1da1f2;
+}
+.networking__icon:nth-child(3) {
+  background-color: #f77737;
+  border: 2px solid #f77737;
+}
+.networking__icon:nth-child(4) {
+  background-color: #0077b5;
+  border: 2px solid #0077b5;
+}
+.networking__icon:nth-child(5) {
+  background-color: #25d366;
+  border: 2px solid #25d366;
+}

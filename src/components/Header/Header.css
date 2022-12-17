@@ -3,7 +3,7 @@
   height: 70vh;
   width: 100%;
   background-image: linear-gradient(135deg, #85179710 0%, #85179750 100%),
-    url(../../img/imgheader.jpg);
+    url(../../img/project5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -45,11 +45,18 @@
 }
 
 /* About */
+.about__container {
+  display: flex;
+  justify-content: center;
+}
+
 .about {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 300px;
+  justify-content: center;
+  margin: 0 10px;
+  width: 900px;
   position: relative;
 }
 
@@ -68,7 +75,7 @@
 }
 
 .about__title {
-  margin: 12vh 0 20px 0;
+  margin: 15vh 0 20px 0;
   font-size: 2rem;
   color: orangered;
 }

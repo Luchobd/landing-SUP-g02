@@ -1,0 +1,58 @@
+.form__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__title {
+  margin-top: 30px;
+  text-align: center;
+  color: #851797;
+  font-weight: lighter;
+}
+
+.form {
+  margin: 50px 0;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form__input--name,
+.form__input--email,
+.form__input--description {
+  margin-bottom: 20px;
+  padding: 5px;
+  border: 1px solid #a4a4a4;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form__input--name,
+.form__input--email {
+  padding: 10px 5px;
+}
+
+.form__input--description {
+  padding: 10px 5px 50px 5px;
+}
+
+.form__btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form__btn--send {
+  width: 60px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fafafa;
+  background-color: #851797;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
