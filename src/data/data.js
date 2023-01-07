@@ -1,4 +1,4 @@
-export const albumRender = [
+export const database = [
   {
     name: "Project1",
     image:

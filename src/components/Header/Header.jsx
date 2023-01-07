@@ -16,7 +16,7 @@ export const Header = () => {
               <a href="#jobs">Jobs</a>
             </li>
             <li>
-              <a href="#">Contacts</a>
+              <a href="#contacts">Contacts</a>
             </li>
           </ul>
         </nav>
